@@ -1,0 +1,51 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "react/react.d.ts": {
+      "commit": "421d6610bdb09e1015b71f5991d7a68d079eca21"
+    },
+    "react-dom/react-dom.d.ts": {
+      "commit": "421d6610bdb09e1015b71f5991d7a68d079eca21"
+    },
+    "react-redux/react-redux.d.ts": {
+      "commit": "421d6610bdb09e1015b71f5991d7a68d079eca21"
+    },
+    "redux-thunk/redux-thunk.d.ts": {
+      "commit": "421d6610bdb09e1015b71f5991d7a68d079eca21"
+    },
+    "redux-logger/redux-logger.d.ts": {
+      "commit": "421d6610bdb09e1015b71f5991d7a68d079eca21"
+    },
+    "react-router/react-router.d.ts": {
+      "commit": "421d6610bdb09e1015b71f5991d7a68d079eca21"
+    },
+    "redux/redux.d.ts": {
+      "commit": "421d6610bdb09e1015b71f5991d7a68d079eca21"
+    },
+    "redux-devtools/redux-devtools.d.ts": {
+      "commit": "421d6610bdb09e1015b71f5991d7a68d079eca21"
+    },
+    "mocha/mocha.d.ts": {
+      "commit": "0a6894d9ecad95abc88b00109f6f81c80b109e81"
+    },
+    "chai/chai.d.ts": {
+      "commit": "0a6894d9ecad95abc88b00109f6f81c80b109e81"
+    },
+    "assertion-error/assertion-error.d.ts": {
+      "commit": "0a6894d9ecad95abc88b00109f6f81c80b109e81"
+    },
+    "sinon/sinon.d.ts": {
+      "commit": "0a6894d9ecad95abc88b00109f6f81c80b109e81"
+    },
+    "sinon-chai/sinon-chai.d.ts": {
+      "commit": "0a6894d9ecad95abc88b00109f6f81c80b109e81"
+    },
+    "lodash/lodash.d.ts": {
+      "commit": "fc341765ebbb04b7109981a25dced01f488f4d94"
+    }
+  }
+}

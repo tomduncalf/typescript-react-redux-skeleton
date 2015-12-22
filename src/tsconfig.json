@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "ts-build",
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "config",
+    "dev_server.js",
+    "node_modules"
+  ],
+  "filesGlob": [
+    "typings/tsd.d.ts",
+    "typings/_custom/**/*.d.ts",
+    "app/**/*.ts",
+    "app/**/*.tsx"
+  ],
+  "files": [
+    "typings/tsd.d.ts",
+    "typings/_custom/chai.d.ts",
+    "typings/_custom/history_lib.d.ts",
+    "typings/_custom/html.d.ts",
+    "typings/_custom/react-addons-perf.d.ts",
+    "typings/_custom/react-addons-test-utils.d.ts",
+    "typings/_custom/react-css-modules.d.ts",
+    "typings/_custom/react-render-visualizer-decorator.d.ts",
+    "typings/_custom/react-router.d.ts",
+    "typings/_custom/redux-devtools-dock-monitor.d.ts",
+    "typings/_custom/redux-devtools-log-monitor.d.ts",
+    "typings/_custom/redux-devtools.d.ts",
+    "typings/_custom/redux-simple-router.d.ts",
+    "typings/_custom/redux-slider-monitor.d.ts",
+    "typings/_custom/redux.d.ts",
+    "typings/_custom/shallowequal.d.ts",
+    "typings/_custom/sinon.d.ts",
+    "typings/_custom/webpack-runtime.d.ts",
+    "app/decorators/pureRender.ts",
+    "app/interfaces/State.ts",
+    "app/polyfills/destructure.ts",
+    "app/reducers/index.ts",
+    "app/store/configureStore.ts",
+    "app/components/Test.tsx",
+    "app/containers/App.tsx",
+    "app/containers/DevTools.tsx",
+    "app/containers/Root.tsx",
+    "app/index.tsx",
+    "app/routes.tsx"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
