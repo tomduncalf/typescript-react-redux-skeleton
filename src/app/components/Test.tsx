@@ -4,7 +4,7 @@ import CSSModules from 'react-css-modules'
 import pureRender from 'decorators/pureRender'
 import StatelessTest from 'components/StatelessTest'
 
-const styles: any = require('../../css/components/Test.css')
+const styles: any = require('../../scss/components/Test.scss')
 
 interface Props {
 }

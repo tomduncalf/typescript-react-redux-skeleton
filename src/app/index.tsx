@@ -5,7 +5,7 @@ import { browserHistory } from 'react-router'
 import Root from 'containers/Root'
 import configureStore from 'store/configureStore'
 
-require('../css/global/main.css')
+require('../scss/global/main.scss')
 
 const history =  browserHistory
 const store = configureStore(history)

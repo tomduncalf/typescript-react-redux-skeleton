@@ -26,12 +26,12 @@ module.exports = {
         include: APP_DIR
       },
       {
-        test: /.*css\/components\/.*\.css$/,
-        loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader'
+        test: /.s*css\/components\/.*\.scss$/,
+        loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!sass!postcss-loader'
       },
       {
-        test: /.*css\/global\/.*\.css$/,
-        loader: 'style!css!postcss-loader'
+        test: /.*scss\/global\/.*\.scss$/,
+        loader: 'style!css!sass!postcss-loader'
       },
       {
         test: /\.png|.gif?$/,
