@@ -1,4 +1,4 @@
 declare module "redux-simple-router" {
-  export var syncReduxAndRouter: any
+  export var syncHistory: any
   export var routeReducer: any
 }

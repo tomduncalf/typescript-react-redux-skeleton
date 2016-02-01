@@ -7,4 +7,5 @@ declare module ReactRouter {
 
   export var Router: any
   export var IndexRoute: any
+  export var browserHistory: any
 }

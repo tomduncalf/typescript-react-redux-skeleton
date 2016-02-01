@@ -41,6 +41,7 @@
     "app/polyfills/destructure.ts",
     "app/reducers/index.ts",
     "app/store/configureStore.ts",
+    "app/components/StatelessTest.tsx",
     "app/components/Test.tsx",
     "app/containers/App.tsx",
     "app/containers/DevTools.tsx",
