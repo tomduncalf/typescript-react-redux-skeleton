@@ -4,7 +4,8 @@
     "jsx": "react",
     "sourceMap": true,
     "outDir": "ts-build",
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "moduleResolution": "classic"
   },
   "exclude": [
     "config",

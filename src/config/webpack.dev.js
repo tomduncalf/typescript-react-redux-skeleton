@@ -30,7 +30,7 @@ module.exports = {
         loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader'
       },
       {
-        test: /.*scss\/global\/.*\.css$/,
+        test: /.*css\/global\/.*\.css$/,
         loader: 'style!css!postcss-loader'
       },
       {

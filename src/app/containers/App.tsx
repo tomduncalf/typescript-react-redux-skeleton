@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { connect } from 'react-redux'
 
-import pureRender from '../decorators/pureRender'
+import pureRender from 'decorators/pureRender'
 
-import { State } from '../interfaces/State'
+import { State } from 'interfaces/State'
 
 interface Props {
   children: any

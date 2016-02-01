@@ -5,11 +5,11 @@
 import { createStore, applyMiddleware, compose, combineReducers } from 'redux'
 import thunk from 'redux-thunk'
 import createLogger from 'redux-logger'
-import DevTools from '../containers/DevTools'
+import DevTools from 'containers/DevTools'
 import { browserHistory } from 'react-router'
 import { routeReducer, syncHistory } from 'redux-simple-router'
 
-import rootReducer from '../reducers/index'
+import rootReducer from 'reducers/index'
 
 // TS hack for global module variable
 declare var module: any
